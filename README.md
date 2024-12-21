@@ -1,25 +1,28 @@
 # Advent of Code 2024 in Lua :santa: :christmas_tree:
 
+This repository is incomplete, since I was trying to do 2024 in Janet. I'm only doing some days in Lua, either for fun or because I hit a roadblock in Janet.
+
 ## Quickstart
 
+For Fish shell.
+
 ```shell
-$ fd . --no-hidden --no-ignore | entr -c -s 'lua d6/main.lua < d6/input.txt'
+$ set -g day "d19"; fd -e lua -e txt --no-ignore | entr -c -s "lua $day/main.lua < $day/in.txt"
 ```
 
-## Progress (2/25)
+## Progress (7/25)
 
 |     | Lua    |
 | --- | ------ |
-| 1   | :zzz:  |
-| 2   | :zzz:  |
-| 3   | :bell: |
-| 4   | :zzz:  |
+| 1   | :bell: |
+| 2   | :bell: |
+| 3   | :bell: | | 4   | :bell: |
 | 5   | :bell: |
 | 6   | :zzz:  |
 | 7   | :zzz:  |
 | 8   | :zzz:  |
 | 9   | :zzz:  |
-| 10  | :zzz:  |
+| 10  | :bell: |
 | 11  | :zzz:  |
 | 12  | :zzz:  |
 | 13  | :zzz:  |
@@ -28,7 +31,7 @@ $ fd . --no-hidden --no-ignore | entr -c -s 'lua d6/main.lua < d6/input.txt'
 | 16  | :zzz:  |
 | 17  | :zzz:  |
 | 18  | :zzz:  |
-| 19  | :zzz:  |
+| 19  | :bell: |
 | 20  | :zzz:  |
 | 21  | :zzz:  |
 | 22  | :zzz:  |
@@ -48,13 +51,11 @@ $ cat code | sed 's/^/    /' | pbcopy
 ## Reddit Comment Template
 
 ```text
-[LANGUAGE: lua]
-
-# [Lua]()
+[LANGUAGE: Lua]
 
 60 lines of code according to `tokei` when formatted with `stylua`.
 
-- [GitHub Repository](https://github.com/cideM/aoc2023)
+- [GitHub Repository](https://github.com/cideM/aoc2024-lua)
 - [Topaz Paste]()
 ```
 
