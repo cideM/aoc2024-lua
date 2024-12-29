@@ -10,34 +10,34 @@ For Fish shell.
 $ set -g day "d19"; fd -e lua -e txt --no-ignore | entr -c -s "lua $day/main.lua < $day/in.txt"
 ```
 
-## Progress (0/25)
+## Progress (1/25)
 
-|     | Lua   |
-| --- | ----- |
-| 1   | :zzz: |
-| 2   | :zzz: |
-| 3   | :zzz: |
-| 5   | :zzz: |
-| 6   | :zzz: |
-| 7   | :zzz: |
-| 8   | :zzz: |
-| 9   | :zzz: |
-| 10  | :zzz: |
-| 11  | :zzz: |
-| 12  | :zzz: |
-| 13  | :zzz: |
-| 14  | :zzz: |
-| 15  | :zzz: |
-| 16  | :zzz: |
-| 17  | :zzz: |
-| 18  | :zzz: |
-| 19  | :zzz: |
-| 20  | :zzz: |
-| 21  | :zzz: |
-| 22  | :zzz: |
-| 23  | :zzz: |
-| 24  | :zzz: |
-| 25  | :zzz: |
+|     | Lua    | Time    |
+| --- | ------ | ------- |
+| 1   | :zzz:  |
+| 2   | :bell: | 16m 25s |
+| 3   | :zzz:  |
+| 5   | :zzz:  |
+| 6   | :zzz:  |
+| 7   | :zzz:  |
+| 8   | :zzz:  |
+| 9   | :zzz:  |
+| 10  | :zzz:  |
+| 11  | :zzz:  |
+| 12  | :zzz:  |
+| 13  | :zzz:  |
+| 14  | :zzz:  |
+| 15  | :zzz:  |
+| 16  | :zzz:  |
+| 17  | :zzz:  |
+| 18  | :zzz:  |
+| 19  | :zzz:  |
+| 20  | :zzz:  |
+| 21  | :zzz:  |
+| 22  | :zzz:  |
+| 23  | :zzz:  |
+| 24  | :zzz:  |
+| 25  | :zzz:  |
 
 ## Make Reddit Code Snippet
 
