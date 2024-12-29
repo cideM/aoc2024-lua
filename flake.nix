@@ -18,12 +18,12 @@
             src = super.fetchFromGitHub {
               owner = "johnnymorganz";
               repo = "stylua";
-              rev = "v2.0.1";
-              sha256 = "sha256-/gCg1mJ4BDmgZ+jdWvns9CkhymWP3jdTqS7Z4n4zsO8=";
+              rev = "v2.0.2";
+              sha256 = "sha256-sZrymo1RRfDLz8fPa7FnbutSpOCFoyQPoFVjA6BH5qQ=";
             };
             cargoDeps = old.cargoDeps.overrideAttrs {
               inherit src;
-              outputHash = "sha256-dl1j+Wz5j/QO0HtCRss0IkjItnzhuB5D069a9s6Xarg=";
+              outputHash = "sha256-slSIDHGm8lmuXR5eCxm4q86d2dwaNoZI7qihgXNgLZI=";
             };
           });
         };
@@ -43,6 +43,7 @@
             lua5_4
             stylua
             lua-language-server
+            graphviz
             tokei
             nodePackages.prettier
           ];
