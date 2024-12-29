@@ -1,0 +1,5 @@
+#!/bin/sh
+
+mkdir -p "d$1"
+cp template.lua "d$1"/main.lua
+touch "d$1"/{ex,in}.txt
