@@ -10,14 +10,14 @@ For Fish shell.
 $ set -g day "d19"; fd -e lua -e txt --no-ignore | entr -c -s "lua $day/main.lua < $day/in.txt"
 ```
 
-## Progress (2/25)
+## Progress (3/25)
 
-|     | Lua    | Time    |
-| --- | ------ | ------- |
+|     | Lua    | Time       |
+| --- | ------ | ---------- |
 | 1   | :zzz:  |
-| 2   | :bell: | 16m 25s |
+| 2   | :bell: | 16m 25s    |
 | 3   | :zzz:  |
-| 4   | :bell: | 16m 05s |
+| 4   | :bell: | 16m 05s    |
 | 5   | :zzz:  |
 | 6   | :zzz:  |
 | 7   | :zzz:  |
@@ -32,7 +32,7 @@ $ set -g day "d19"; fd -e lua -e txt --no-ignore | entr -c -s "lua $day/main.lua
 | 16  | :zzz:  |
 | 17  | :zzz:  |
 | 18  | :zzz:  |
-| 19  | :zzz:  |
+| 19  | :bell: | 1h 35m 51s |
 | 20  | :zzz:  |
 | 21  | :zzz:  |
 | 22  | :zzz:  |
